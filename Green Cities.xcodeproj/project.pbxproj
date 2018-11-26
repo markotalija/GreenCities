@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5CB7789C21AC327C00292105 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB7789B21AC327C00292105 /* AppDelegate.swift */; };
-		5CB7789E21AC327C00292105 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB7789D21AC327C00292105 /* ViewController.swift */; };
+		5CB7789E21AC327C00292105 /* CityListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB7789D21AC327C00292105 /* CityListViewController.swift */; };
 		5CB778A121AC327C00292105 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CB7789F21AC327C00292105 /* Main.storyboard */; };
 		5CB778A321AC327E00292105 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CB778A221AC327E00292105 /* Assets.xcassets */; };
 		5CB778A621AC327E00292105 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CB778A421AC327E00292105 /* LaunchScreen.storyboard */; };
@@ -28,7 +28,7 @@
 /* Begin PBXFileReference section */
 		5CB7789821AC327C00292105 /* Green Cities.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Green Cities.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CB7789B21AC327C00292105 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5CB7789D21AC327C00292105 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5CB7789D21AC327C00292105 /* CityListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityListViewController.swift; sourceTree = "<group>"; };
 		5CB778A021AC327C00292105 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5CB778A221AC327E00292105 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CB778A521AC327E00292105 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -78,11 +78,10 @@
 			isa = PBXGroup;
 			children = (
 				5CB7789B21AC327C00292105 /* AppDelegate.swift */,
-				5CB7789D21AC327C00292105 /* ViewController.swift */,
-				5CB7789F21AC327C00292105 /* Main.storyboard */,
-				5CB778A221AC327E00292105 /* Assets.xcassets */,
-				5CB778A421AC327E00292105 /* LaunchScreen.storyboard */,
-				5CB778A721AC327E00292105 /* Info.plist */,
+				5CB778BB21AC335100292105 /* Model */,
+				5CB778BC21AC335C00292105 /* Controller */,
+				5CB778BD21AC337200292105 /* Storyboards */,
+				5CB778BE21AC338A00292105 /* Supporting Files */,
 			);
 			path = "Green Cities";
 			sourceTree = "<group>";
@@ -94,6 +93,39 @@
 				5CB778B221AC327E00292105 /* Info.plist */,
 			);
 			path = "Green CitiesTests";
+			sourceTree = "<group>";
+		};
+		5CB778BB21AC335100292105 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5CB778BC21AC335C00292105 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5CB7789D21AC327C00292105 /* CityListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5CB778BD21AC337200292105 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				5CB7789F21AC327C00292105 /* Main.storyboard */,
+				5CB778A421AC327E00292105 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		5CB778BE21AC338A00292105 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CB778A221AC327E00292105 /* Assets.xcassets */,
+				5CB778A721AC327E00292105 /* Info.plist */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,7 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CB7789E21AC327C00292105 /* ViewController.swift in Sources */,
+				5CB7789E21AC327C00292105 /* CityListViewController.swift in Sources */,
 				5CB7789C21AC327C00292105 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,7 +394,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EKHJNU6F9S;
-				INFOPLIST_FILE = "Green Cities/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Green Cities/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -380,7 +412,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EKHJNU6F9S;
-				INFOPLIST_FILE = "Green Cities/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Green Cities/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
