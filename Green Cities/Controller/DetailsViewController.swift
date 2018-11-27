@@ -27,7 +27,7 @@ class DetailsViewController: UIViewController, UITableViewDataSource, UITableVie
     private func configureNavigationBar() {
         
         title = selectedCity.name
-        navigationController?.navigationBar.tintColor = UIColor.white
+        navigationController?.navigationBar.tintColor = GREEN_COLOR
     }
     
     //MARK: - UITableViewDataSource
@@ -58,15 +58,15 @@ class DetailsViewController: UIViewController, UITableViewDataSource, UITableVie
         switch indexPath.section {
         case 0:
             
-            let cell = CityDetailsTableViewCell(style: .value1, reuseIdentifier: "detailsCell")
+            let cell = CityDetailsTableViewCell(style: .value1, reuseIdentifier: DETAILS_CELL)
             cell.configureCell(with: selectedCity, row: indexPath.row)
             return cell
         case 1:
-            let cell = UITableViewCell(style: .default, reuseIdentifier: "statusCell")
+            let cell = UITableViewCell(style: .default, reuseIdentifier: STATUS_CELL)
             cell.textLabel?.text = "Change Status"
             return cell
         case 2:
-            let cell = UITableViewCell(style: .default, reuseIdentifier: "mapCell")
+            let cell = UITableViewCell(style: .default, reuseIdentifier: MAP_CELL)
             cell.accessoryType = .disclosureIndicator
             cell.textLabel?.text = "View city on map"
             
@@ -74,6 +74,8 @@ class DetailsViewController: UIViewController, UITableViewDataSource, UITableVie
         default:
             break
         }
+        
+        let string = "Marko"
         
         return UITableViewCell()
     }

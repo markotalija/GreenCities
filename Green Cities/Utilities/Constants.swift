@@ -10,6 +10,9 @@ import UIKit
 
 //Strings
 let CELL_IDENTIFIER = "Cell"
+let DETAILS_CELL = "detailsCell"
+let STATUS_CELL = "statusCell"
+let MAP_CELL = "mapCell"
 
 //View Controller Identifiers
 let DETAILS_VC = "DetailsViewController"
