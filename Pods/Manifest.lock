@@ -1,0 +1,24 @@
+PODS:
+  - CSVImporter (1.9.1):
+    - HandySwift (~> 2.5)
+  - HandySwift (2.7.0)
+  - MBProgressHUD (1.1.0)
+
+DEPENDENCIES:
+  - CSVImporter (~> 1.9)
+  - MBProgressHUD (~> 1.1.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CSVImporter
+    - HandySwift
+    - MBProgressHUD
+
+SPEC CHECKSUMS:
+  CSVImporter: 1543192354ecf8abccd2cc77947d190fd9cf2b18
+  HandySwift: f1315d56ea189e1510832f94ae24dac2958148dc
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+
+PODFILE CHECKSUM: eeb954be64c7545d650f83c8f494339ff75ac4ea
+
+COCOAPODS: 1.5.3

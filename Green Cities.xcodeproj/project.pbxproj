@@ -13,6 +13,15 @@
 		5CB778A321AC327E00292105 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CB778A221AC327E00292105 /* Assets.xcassets */; };
 		5CB778A621AC327E00292105 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CB778A421AC327E00292105 /* LaunchScreen.storyboard */; };
 		5CB778B121AC327E00292105 /* Green_CitiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB778B021AC327E00292105 /* Green_CitiesTests.swift */; };
+		5CB778C121AC35CC00292105 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB778C021AC35CC00292105 /* Constants.swift */; };
+		5CB778C321AC598500292105 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB778C221AC598500292105 /* City.swift */; };
+		5CB778C521AC5EB300292105 /* world_cities.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5CB778C421AC5EB300292105 /* world_cities.csv */; };
+		5CB778C721AC61C200292105 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB778C621AC61C200292105 /* DetailsViewController.swift */; };
+		5CB778CB21ACA63A00292105 /* CityDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB778CA21ACA63A00292105 /* CityDetailsTableViewCell.swift */; };
+		5CB778CD21ACB94300292105 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB778CC21ACB94300292105 /* DataManager.swift */; };
+		5CB778CF21ACBB0B00292105 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB778CE21ACBB0B00292105 /* MapViewController.swift */; };
+		6D8CA0B288D7F3A43A57018D /* Pods_Green_Cities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FFFCAEEF59870DF30A63F18 /* Pods_Green_Cities.framework */; };
+		A1FAD8F28CFCB432C618CE7F /* Pods_Green_CitiesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75A58FA4DD2E28190D5586A3 /* Pods_Green_CitiesTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A9439F8A39230A356B04F1D /* Pods-Green Cities.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Green Cities.release.xcconfig"; path = "Pods/Target Support Files/Pods-Green Cities/Pods-Green Cities.release.xcconfig"; sourceTree = "<group>"; };
+		4BA22E5CB1B57BE48F1DACED /* Pods-Green Cities.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Green Cities.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Green Cities/Pods-Green Cities.debug.xcconfig"; sourceTree = "<group>"; };
 		5CB7789821AC327C00292105 /* Green Cities.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Green Cities.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CB7789B21AC327C00292105 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5CB7789D21AC327C00292105 /* CityListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityListViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +47,17 @@
 		5CB778AC21AC327E00292105 /* Green CitiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Green CitiesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CB778B021AC327E00292105 /* Green_CitiesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Green_CitiesTests.swift; sourceTree = "<group>"; };
 		5CB778B221AC327E00292105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CB778C021AC35CC00292105 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5CB778C221AC598500292105 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		5CB778C421AC5EB300292105 /* world_cities.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = world_cities.csv; sourceTree = "<group>"; };
+		5CB778C621AC61C200292105 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		5CB778CA21ACA63A00292105 /* CityDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		5CB778CC21ACB94300292105 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		5CB778CE21ACBB0B00292105 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		6FFFCAEEF59870DF30A63F18 /* Pods_Green_Cities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Green_Cities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75A58FA4DD2E28190D5586A3 /* Pods_Green_CitiesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Green_CitiesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D5B9F838194388652B066B4 /* Pods-Green CitiesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Green CitiesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Green CitiesTests/Pods-Green CitiesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		92E597C60A7406AF50A74782 /* Pods-Green CitiesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Green CitiesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Green CitiesTests/Pods-Green CitiesTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D8CA0B288D7F3A43A57018D /* Pods_Green_Cities.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +73,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1FAD8F28CFCB432C618CE7F /* Pods_Green_CitiesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A98D656D28BA090E5E37E7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4BA22E5CB1B57BE48F1DACED /* Pods-Green Cities.debug.xcconfig */,
+				4A9439F8A39230A356B04F1D /* Pods-Green Cities.release.xcconfig */,
+				7D5B9F838194388652B066B4 /* Pods-Green CitiesTests.debug.xcconfig */,
+				92E597C60A7406AF50A74782 /* Pods-Green CitiesTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		56BBFF76C4CF3B8DE6093BC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FFFCAEEF59870DF30A63F18 /* Pods_Green_Cities.framework */,
+				75A58FA4DD2E28190D5586A3 /* Pods_Green_CitiesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5CB7788F21AC327C00292105 = {
 			isa = PBXGroup;
 			children = (
 				5CB7789A21AC327C00292105 /* Green Cities */,
 				5CB778AF21AC327E00292105 /* Green CitiesTests */,
 				5CB7789921AC327C00292105 /* Products */,
+				2A98D656D28BA090E5E37E7B /* Pods */,
+				56BBFF76C4CF3B8DE6093BC3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,9 +125,11 @@
 			children = (
 				5CB7789B21AC327C00292105 /* AppDelegate.swift */,
 				5CB778BB21AC335100292105 /* Model */,
+				5CB778C821ACA60900292105 /* View */,
 				5CB778BC21AC335C00292105 /* Controller */,
 				5CB778BD21AC337200292105 /* Storyboards */,
 				5CB778BE21AC338A00292105 /* Supporting Files */,
+				5CB778BF21AC35B200292105 /* Utilities */,
 			);
 			path = "Green Cities";
 			sourceTree = "<group>";
@@ -98,6 +146,7 @@
 		5CB778BB21AC335100292105 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5CB778C221AC598500292105 /* City.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -106,6 +155,8 @@
 			isa = PBXGroup;
 			children = (
 				5CB7789D21AC327C00292105 /* CityListViewController.swift */,
+				5CB778C621AC61C200292105 /* DetailsViewController.swift */,
+				5CB778CE21ACBB0B00292105 /* MapViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -124,8 +175,34 @@
 			children = (
 				5CB778A221AC327E00292105 /* Assets.xcassets */,
 				5CB778A721AC327E00292105 /* Info.plist */,
+				5CB778C421AC5EB300292105 /* world_cities.csv */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CB778BF21AC35B200292105 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5CB778C021AC35CC00292105 /* Constants.swift */,
+				5CB778CC21ACB94300292105 /* DataManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		5CB778C821ACA60900292105 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5CB778C921ACA62000292105 /* Cells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5CB778C921ACA62000292105 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5CB778CA21ACA63A00292105 /* CityDetailsTableViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,9 +212,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5CB778B521AC327E00292105 /* Build configuration list for PBXNativeTarget "Green Cities" */;
 			buildPhases = (
+				52BC1E568DE304948631DC75 /* [CP] Check Pods Manifest.lock */,
 				5CB7789421AC327C00292105 /* Sources */,
 				5CB7789521AC327C00292105 /* Frameworks */,
 				5CB7789621AC327C00292105 /* Resources */,
+				BC2E09EA2979FEC6656CC75E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +231,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5CB778B821AC327E00292105 /* Build configuration list for PBXNativeTarget "Green CitiesTests" */;
 			buildPhases = (
+				B9A32F0DFCAE44E06D0D6D16 /* [CP] Check Pods Manifest.lock */,
 				5CB778A821AC327E00292105 /* Sources */,
 				5CB778A921AC327E00292105 /* Frameworks */,
 				5CB778AA21AC327E00292105 /* Resources */,
@@ -211,6 +291,7 @@
 			files = (
 				5CB778A621AC327E00292105 /* LaunchScreen.storyboard in Resources */,
 				5CB778A321AC327E00292105 /* Assets.xcassets in Resources */,
+				5CB778C521AC5EB300292105 /* world_cities.csv in Resources */,
 				5CB778A121AC327C00292105 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -224,6 +305,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		52BC1E568DE304948631DC75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Green Cities-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9A32F0DFCAE44E06D0D6D16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Green CitiesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC2E09EA2979FEC6656CC75E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Green Cities/Pods-Green Cities-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CSVImporter/CSVImporter.framework",
+				"${BUILT_PRODUCTS_DIR}/HandySwift/HandySwift.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CSVImporter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandySwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Green Cities/Pods-Green Cities-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5CB7789421AC327C00292105 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -231,6 +385,12 @@
 			files = (
 				5CB7789E21AC327C00292105 /* CityListViewController.swift in Sources */,
 				5CB7789C21AC327C00292105 /* AppDelegate.swift in Sources */,
+				5CB778C321AC598500292105 /* City.swift in Sources */,
+				5CB778CD21ACB94300292105 /* DataManager.swift in Sources */,
+				5CB778CB21ACA63A00292105 /* CityDetailsTableViewCell.swift in Sources */,
+				5CB778C121AC35CC00292105 /* Constants.swift in Sources */,
+				5CB778C721AC61C200292105 /* DetailsViewController.swift in Sources */,
+				5CB778CF21ACBB0B00292105 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +550,7 @@
 		};
 		5CB778B621AC327E00292105 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BA22E5CB1B57BE48F1DACED /* Pods-Green Cities.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -408,6 +569,7 @@
 		};
 		5CB778B721AC327E00292105 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A9439F8A39230A356B04F1D /* Pods-Green Cities.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -426,6 +588,7 @@
 		};
 		5CB778B921AC327E00292105 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D5B9F838194388652B066B4 /* Pods-Green CitiesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -447,6 +610,7 @@
 		};
 		5CB778BA21AC327E00292105 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92E597C60A7406AF50A74782 /* Pods-Green CitiesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
