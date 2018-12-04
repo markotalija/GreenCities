@@ -75,8 +75,6 @@ class DetailsViewController: UIViewController, UITableViewDataSource, UITableVie
             break
         }
         
-        let string = "Marko"
-        
         return UITableViewCell()
     }
     

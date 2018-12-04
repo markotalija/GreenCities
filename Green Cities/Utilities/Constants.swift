@@ -20,3 +20,6 @@ let MAP_VC = "MapViewController"
 
 //Colors
 let GREEN_COLOR = UIColor(red: 67 / 255, green: 205 / 255, blue: 135 / 255, alpha: 1.0)
+
+//Numbers
+let INDEX: Int = 0

@@ -72,9 +72,14 @@ class CityListViewController: UIViewController, UITableViewDataSource, UITableVi
     
     private func getSearchResults(from searchString: String) {
         
-        searchResultsArray = DataManager.sharedInstance.citiesArray.filter({ (city: City) -> Bool in
-            return city.name.lowercased().contains(searchString.lowercased())
-        })
+        searchResultsArray = searchCity(for: searchString)
+        
+        tableView.reloadData()
+        
+//        searchResultsArray = DataManager.sharedInstance.citiesArray.filter({ (city: City) -> Bool in
+//            //return city.name.lowercased().contains(searchString.lowercased())
+//            return city.name.lowercased().cityNameContains(string: city.name.lowercased(), substring: searchString.lowercased(), stringIndex: 0, substringIndex: 0)
+//        })
         
         tableView.reloadData()
     }
@@ -82,6 +87,22 @@ class CityListViewController: UIViewController, UITableViewDataSource, UITableVi
     private func isCurrentlySearching() -> Bool {
         
         return searchController.isActive && !isSearchBarEmpty()
+    }
+    
+    //MARK: - Public API
+    
+    func searchCity(for term: String) -> [City] {
+        
+        guard DataManager.sharedInstance.citiesArray.count > 0 else { return [] }
+        
+        var resultArray = [City]()
+        for city in DataManager.sharedInstance.citiesArray {
+            if city.name.contains(string: city.name, substring: term, stringIndex: INDEX, substringIndex: INDEX) {
+                resultArray.append(city)
+            }
+        }
+        
+        return resultArray
     }
     
     //MARK: - UITableViewDataSource
